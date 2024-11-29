@@ -1,4 +1,4 @@
-package nl.joozd
+package nl.joozd.daynightcalculator
 
 /**
  * Constants to use for twilight values

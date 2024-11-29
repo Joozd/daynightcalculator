@@ -1,8 +1,6 @@
-package nl.joozd.navigation
+package nl.joozd.daynightcalculator
 
-import nl.joozd.Location
-import nl.joozd.util.toDegrees
-import nl.joozd.util.toRadians
+import nl.joozd.daynightcalculator.Location
 import kotlin.math.*
 
 /**

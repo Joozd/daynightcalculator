@@ -1,4 +1,4 @@
-package nl.joozd.util
+package nl.joozd.daynightcalculator
 
 /**
  * Degrees to radians

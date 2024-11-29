@@ -1,4 +1,4 @@
-package nl.joozd
+package nl.joozd.daynightcalculator
 
 import java.time.Instant
 
