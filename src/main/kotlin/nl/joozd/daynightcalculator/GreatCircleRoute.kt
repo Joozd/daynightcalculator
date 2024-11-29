@@ -33,11 +33,6 @@ internal class GreatCircleRoute(
     val distance = 2 * asin(sqrt(haversine(lat1, lat2) + cosLat1 * cosLat2 * haversine(lon1, lon2)))
 
     /**
-     * Distance in NM
-     */
-    val distanceNM = distance.toDegrees() * 60
-
-    /**
      * Get a Sequence of [amountOfPoints] evenly spaced points along this route
      */
     fun getPointsAlongRoute(amountOfPoints: Int) = sequence{
