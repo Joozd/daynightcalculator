@@ -18,7 +18,9 @@ Even though this is a Kotlin project, it uses Java times and dates, for compatib
 
 # Installation
 
-Gradle: 
+DayNightCalculator can be installed from my public repository (**if it is running, no guarantees there**)
+
+Gradle:
 
     repositories {
         // other repositories like mavenCentral()
@@ -30,6 +32,8 @@ Gradle:
         // DayNightCalculator
         implementation("nl.joozd.daynightcalculator:daynightcalculator:1.0")
     }
+
+Or, it can be found more reliably on [GitHub](https://github.com/Joozd/daynightcalculator)
 
 # License
 
