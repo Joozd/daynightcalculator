@@ -38,10 +38,7 @@ internal class GreatCircleRoute(
     val distanceNM = distance.toDegrees() * 60
 
     /**
-     * Splits the route into [numberOfPoints] points and gives the location per point
-     */
-    /**
-     * Get a List of [amountOfPoints] points along a route from [origin] to [destination]
+     * Get a Sequence of [amountOfPoints] evenly spaced points along this route
      */
     fun getPointsAlongRoute(amountOfPoints: Int) = sequence{
         // Calculate the initial bearing
