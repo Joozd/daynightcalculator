@@ -32,7 +32,7 @@ publishing {
             from(components["java"])
 
             groupId = group
-            artifactId = "yalaprerequisites"
+            artifactId = "daynightcalculator"
             version = version
 
             artifact(sourceJar.get()) // Attach the source JAR
@@ -73,7 +73,7 @@ tasks.dokkaHtml {
     dokkaSourceSets {
         named("main") {
             // Set module and package options as needed
-            moduleName.set("YalaPrerequisites")
+            moduleName.set("DayNightCalculator")
             includes.from("Module.md")
             reportUndocumented.set(true) // Warn if something is not documented
             jdkVersion.set(11) // Target JDK version
